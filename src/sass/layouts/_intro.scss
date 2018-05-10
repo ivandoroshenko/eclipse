@@ -1,0 +1,159 @@
+.intro {
+    position: relative;
+    // background-color: #000;
+    background-image: url('../img/intro_bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30px;
+    &__overlay {
+         position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;    
+        background-size: cover;
+    }
+    &__overlay1 {
+        height: 100%;
+        background: url('../img/intro-over1.png') bottom center no-repeat;
+    }
+    &__overlay2 {
+        height: 100%;
+        background: url('../img/intro-over2.png') bottom center no-repeat;
+    }
+    &__overlay3 {
+        height: 752px / 885px * 100%;
+        background: url('../img/intro-over3.png') bottom center no-repeat;
+    }
+    &__overlay4 {
+        height: 812px / 885px * 100%;
+        background: url('../img/intro-over4.png') bottom center no-repeat;
+    }
+
+}
+// #intro-heading
+.intro__heading {
+    margin-bottom: 68px;
+}
+.intro__contact {
+    text-align: right;
+}
+.logo {
+    display: block;
+}
+
+.intro_lang__nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-bottom: 39px;
+}
+
+.intro_lang__list {
+    @extend .intro_lang__nav;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.intro_lang__item {
+    margin-right: 22px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.intro_lang__link {
+    /* Style for "En     Ru" */
+color: #cccccc;
+font-size: 18px;
+font-weight: 300;
+
+&--active {
+color: #ffffff;
+font-weight: 700;
+}
+
+}
+
+.itro__contact_title{
+color: #fff;
+font-size: 1.563rem;
+font-weight: 400;
+text-transform: uppercase;
+padding-bottom: 15px;
+}
+
+address a {
+color: #cb0e17;
+font-weight: 400;
+font-style: normal;
+}
+
+.intro__contact_phone {
+    font-size: 2.188rem;
+}
+.intro__contact_email {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+// #endintro-heading
+
+// intro_description
+.intro__descr {
+    margin-bottom: 112px;
+}
+.intro__descr_text {
+    color: #cb0e16;
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    min-width: 500px;
+    margin-bottom: 10px;
+
+    span {
+        display: block;
+        color: #cb0e17;
+        font-size: 1.438rem;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+}
+
+.intro__descr_title {
+color: #cb0e16;
+font-size: 3.125rem;
+font-weight: 700;
+text-transform: uppercase;
+}
+// endintro_description
+
+//intro__achievments
+.intro__achievments_item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 27px;
+    position: relative;
+    overflow: visible;
+    
+}
+.intro__achievments_img {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.intro__achievments_text {
+color: #000000;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+width: 100%;
+margin: 0;
+padding: 0;
+min-width: 257px;
+}
+//endintro__achievments

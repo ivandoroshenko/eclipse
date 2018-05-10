@@ -1,0 +1,1 @@
+// object.style.backgroundImage = "url(img_tree.gif)"
