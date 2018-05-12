@@ -1,35 +1,12 @@
-.intro {
+8 .intro {
     position: relative;
     // background-color: #000;
-    background-image: url('../img/intro_bg.jpg');
+    background-image: url('../img/intro-bg-joint1.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    padding-top: 30px;
-    &__overlay {
-         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;    
-        background-size: cover;
-    }
-    &__overlay1 {
-        height: 100%;
-        background: url('../img/intro-over1.png') bottom center no-repeat;
-    }
-    &__overlay2 {
-        height: 100%;
-        background: url('../img/intro-over2.png') bottom center no-repeat;
-    }
-    &__overlay3 {
-        height: 752px / 885px * 100%;
-        background: url('../img/intro-over3.png') bottom center no-repeat;
-    }
-    &__overlay4 {
-        height: 812px / 885px * 100%;
-        background: url('../img/intro-over4.png') bottom center no-repeat;
-    }
+    height: calc(100vh - 50px);
+    padding: 30px 0 57px;
 
 }
 // #intro-heading
@@ -157,3 +134,4 @@ padding: 0;
 min-width: 257px;
 }
 //endintro__achievments
+
