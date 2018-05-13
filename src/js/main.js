@@ -1,1 +1,6 @@
-// object.style.backgroundImage = "url(img_tree.gif)"
+$('.offer__slider').slick({
+    dots: true,
+    arrows: false,
+    fade: true,
+    infinite: true
+});

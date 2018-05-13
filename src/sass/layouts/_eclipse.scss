@@ -1,0 +1,24 @@
+.eclipse {
+    background: url('../img/eclipse_bg1.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 56px 0 49px;
+}
+
+.eclipse__text {
+    color: #e8e9e3;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 30px;
+    text-align: center;
+
+    &:last-child {
+        margin-bottom: 40px;
+    }
+}
+
+.eclipse__title {
+    color: #e8e9e3;
+    font-size: 50px;
+    font-weight: 100;
+}

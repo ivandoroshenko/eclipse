@@ -12,12 +12,20 @@
 // #intro-heading
 .intro__heading {
     margin-bottom: 68px;
+
+     @media screen and (max-width: 1600px) {
+        margin-bottom: 34px;
+    }
 }
 .intro__contact {
     text-align: right;
 }
 .logo {
     display: block;
+
+    @media screen and (max-width: 1600px) {
+        height: 80%;
+    }
 }
 
 .intro_lang__nav {
@@ -45,7 +53,7 @@
 .intro_lang__link {
     /* Style for "En     Ru" */
 color: #cccccc;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 300;
 
 &--active {
@@ -55,12 +63,18 @@ font-weight: 700;
 
 }
 
-.itro__contact_title{
+.intro__contact_title{
 color: #fff;
 font-size: 1.563rem;
 font-weight: 400;
 text-transform: uppercase;
-padding-bottom: 15px;
+padding: 0;
+margin-bottom: 15px;
+
+  @media screen and (max-width: 1600px) {
+        margin-bottom: 5px;
+    }
+
 }
 
 address a {
@@ -73,7 +87,7 @@ font-style: normal;
     font-size: 2.188rem;
 }
 .intro__contact_email {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-bottom: 20px;
 }
 // #endintro-heading
@@ -81,6 +95,10 @@ font-style: normal;
 // intro_description
 .intro__descr {
     margin-bottom: 112px;
+
+     @media screen and (max-width: 1600px) {
+        margin-bottom: calc(112px / 2);
+    }
 }
 .intro__descr_text {
     color: #cb0e16;
@@ -89,6 +107,9 @@ font-style: normal;
     text-transform: uppercase;
     min-width: 500px;
     margin-bottom: 10px;
+      @media screen and (max-width: 1600px) {
+        margin-bottom: 5px;
+        }
 
     span {
         display: block;
@@ -113,6 +134,9 @@ text-transform: uppercase;
     flex-flow: column wrap;
     align-items: center;
     margin-bottom: 27px;
+      @media screen and (max-width: 1600px) {
+        margin-bottom: 15px;
+        }
     position: relative;
     overflow: visible;
     
@@ -124,14 +148,14 @@ text-transform: uppercase;
 
 .intro__achievments_text {
 color: #000000;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 400;
 line-height: 20px;
 text-align: center;
 width: 100%;
 margin: 0;
 padding: 0;
-min-width: 257px;
+max-width: 257px;
 }
 //endintro__achievments
 

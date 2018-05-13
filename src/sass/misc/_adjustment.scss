@@ -7,7 +7,13 @@ html, body {
     min-height: 100vh;
     font-size: 100%;
 }
+html {
+    font-size: 100%;
 
+     @media screen and (max-width: 1600px) {
+        font-size: 80%;
+    }
+}
 body {
     display: flex;
     flex-direction: column;
